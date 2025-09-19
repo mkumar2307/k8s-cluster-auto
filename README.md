@@ -44,7 +44,7 @@ bash join_command.sh
 
 Note: if you didn’t use a script, just paste the full kubeadm join command directly into the terminal.          
 
-🧪 Verify the Cluster         
+### 🧪 Verify the Cluster         
 
 Back on the master node:        
 ```bash
