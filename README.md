@@ -2,7 +2,7 @@ Step-by-step guide to create a Kubernetes cluster with automation script.
 
 ### 🔧 How to Use
 
-1. Transfer the script to all 4 nodes (master + 3 workers).       
+1. Transfer the script to all 4 nodes (master and workers).       
 
 2. Run on the master node:
 
