@@ -11,7 +11,6 @@ bash k8s_cluster_setup.sh master
 ```
 
 This will:     
-
 Disable swap        
 Install Docker and Kubernetes components      
 Initialize the master        
