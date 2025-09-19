@@ -52,3 +52,7 @@ kubectl get nodes
 ```
 
 You should see all nodes in Ready state.
+
+### For Cloud Environments       
+
+ For cloud environments like AWS, Azure, GCP,..etc use cloud-optimized shell script k8s_cluster_setup_cloud.sh for setting up a Kubernetes cluster.        
