@@ -2,7 +2,7 @@ Step-by-step guide to create a Kubernetes cluster with automation script.
 
 ### 🔧 How to Use
 
-1. Transfer the script to all 4 nodes (master + 3 workers).       
+1. Transfer the script to all 4 nodes (master and workers).       
 
 2. Run on the master node:
 
@@ -11,7 +11,6 @@ bash k8s_cluster_setup.sh master
 ```
 
 This will:     
-
 Disable swap        
 Install Docker and Kubernetes components      
 Initialize the master        
@@ -44,7 +43,7 @@ bash join_command.sh
 
 Note: if you didn’t use a script, just paste the full kubeadm join command directly into the terminal.          
 
-🧪 Verify the Cluster         
+### 🧪 Verify the Cluster         
 
 Back on the master node:        
 ```bash
